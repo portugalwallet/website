@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Everything English-speaking residents need to know about filing your Portuguese IRS tax return — who must file, key deadlines, tax rates, deductions, NHR, IFICI and a step-by-step filing guide.">
+  <title>IRS Tax Return Guide — The Portugal Wallet</title>
+  <link rel="icon" href="/assets/images/portugal-wallet-favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/images/portugal-wallet-apple-touch.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a class="nav__logo" href="../index.html" aria-label="The Portugal Wallet — home">
+        <img src="../assets/images/portugal-wallet-dark.svg" alt="The Portugal Wallet">
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="../index.html#guides">Guides</a></li>
+        <li><a href="../newsletter.html">Newsletter</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="nav__mobile-overlay" role="dialog" aria-label="Navigation menu" aria-modal="true">
+    <button class="nav__mobile-close" aria-label="Close menu">✕</button>
+    <a href="../index.html#guides">Guides</a>
+    <a href="../newsletter.html">Newsletter</a>
+    <a href="../about.html">About</a>
+  </div>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════════
+         SECTION 1 — PAGE HEADER
+         ═══════════════════════════════════════════════════ -->
+    <header class="guide-hero">
+      <div class="guide-hero__inner">
+
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a> › <a href="../index.html#guides">Guides</a> › IRS Tax Return
+        </nav>
+
+        <span class="section-label" style="color: var(--color-accent);">Tax</span>
+
+        <h1>IRS Tax Return</h1>
+
+        <!-- CONTENT: intro paragraph — plain English, reassuring tone, 2-3 sentences.
+             Should cover: this guide is free and independent, what the reader will learn
+             (who needs to file, how much they'll pay, how to do it), and a note that it's
+             written for English speakers who find the system confusing. -->
+        <p class="guide-hero__standfirst"><!-- CONTENT: 2-3 sentence intro — free, independent, plain English, what you'll learn --></p>
+
+        <div class="guide-hero__meta">
+          <span>Last updated: <!-- CONTENT: date, e.g. "April 2025" --></span>
+          <span>Free guide</span>
+          <span>15 min read</span>
+        </div>
+
+      </div>
+    </header>
+
+    <div class="strip" aria-hidden="true">
+      <span>Independent</span>
+      <span>·</span>
+      <span>Always Free</span>
+      <span>·</span>
+      <span>Written for Residents</span>
+      <span>·</span>
+      <span>No Paid Placements</span>
+      <span>·</span>
+      <span>English Guides for Portugal</span>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         GUIDE BODY — ARTICLE + SIDEBAR
+         ═══════════════════════════════════════════════════ -->
+    <section class="guide-body">
+      <div class="guide-body__inner">
+
+        <article class="article">
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 2 — QUICK SUMMARY BOX
+               ─────────────────────────────────────────────── -->
+          <div class="callout callout--summary" role="note" aria-label="Key facts">
+            <strong>5 things to know before you start</strong>
+            <ul>
+              <li>Portugal's IRS is personal income tax — nothing to do with the US tax authority</li>
+              <li>The filing window runs from <strong>1 April to 30 June</strong> every year</li>
+              <li>You file online only, at <strong>Portal das Finanças</strong> (portaldasfinancas.gov.pt)</li>
+              <li>If you owe tax, payment is due by <strong>31 August</strong></li>
+              <li>Most residents must file — even if tax was withheld from your salary</li>
+            </ul>
+          </div>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 3 — DO YOU NEED TO FILE?
+               ─────────────────────────────────────────────── -->
+          <h2 id="residency">Do you need to file?</h2>
+
+          <!-- CONTENT: 1-2 sentence intro — sets up the residency question. Explain that whether
+               you need to file depends on your tax residency status, not just how long you've been
+               in Portugal. Most residents do need to file. -->
+          <p><!-- CONTENT: intro to residency section --></p>
+
+          <div class="decision-flow" role="group" aria-label="Am I a Portuguese tax resident?">
+
+            <div class="decision-node">
+              <p class="decision-node__question">Did you spend 183 days or more in Portugal during this tax year?</p>
+              <div class="decision-node__paths">
+                <div class="decision-path decision-path--yes">
+                  <span class="decision-path__label">Yes</span>
+                  <p class="decision-path__text">You are a <strong>tax resident</strong>. You must file an IRS return and declare your worldwide income.</p>
+                </div>
+                <div class="decision-path decision-path--no">
+                  <span class="decision-path__label">No — check the next question</span>
+                  <p class="decision-path__text">Spending fewer than 183 days here does not automatically make you a non-resident. Continue below.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="decision-node">
+              <p class="decision-node__question">Did you have a permanent, habitual home in Portugal on 31 December — a place set up and available to you as your main residence?</p>
+              <div class="decision-node__paths">
+                <div class="decision-path decision-path--yes">
+                  <span class="decision-path__label">Yes</span>
+                  <p class="decision-path__text">You are a <strong>tax resident</strong>, regardless of days spent. Worldwide income must be declared in Portugal.</p>
+                </div>
+                <div class="decision-path decision-path--no">
+                  <span class="decision-path__label">No</span>
+                  <p class="decision-path__text">You are likely a <strong>non-resident</strong> for tax purposes. You declare only Portuguese-source income, taxed at a flat rate.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <h3>The 183-day rule</h3>
+          <!-- CONTENT: 2-3 sentences. Explain how the 183 days are counted — cumulative within the calendar year (not continuous). Cover whether partial days count, and what happens if you straddle the year end. Mention that AT can check exit/entry records. -->
+          <p><!-- CONTENT: 183-day rule — how days are counted, calendar year basis, partial days, AT records --></p>
+
+          <h3>The "habitual home" test</h3>
+          <!-- CONTENT: 2-3 sentences. Explain what "habitual home" (habitação habitual) means legally — a place you intend to occupy as your main home, not just a holiday property or occasional base. Cover the December 31st snapshot date and why it matters. -->
+          <p><!-- CONTENT: habitual home test — legal definition, December 31st snapshot, holiday property distinction --></p>
+
+          <h3>Residents vs non-residents — what the difference means for you</h3>
+          <!-- CONTENT: 2-3 sentences covering the practical consequences. Residents: taxed on worldwide income at progressive rates, must declare everything. Non-residents: taxed only on Portuguese-source income at a flat 25% rate (or 28% for some investment income). Mention that NHR status sits on top of resident status — NHR is a special rate regime for residents, not an exemption from filing. -->
+          <p><!-- CONTENT: resident vs non-resident practical difference — worldwide vs source income, progressive vs flat rate --></p>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 4 — KEY DATES & DEADLINES
+               ─────────────────────────────────────────────── -->
+          <h2 id="dates">Key dates &amp; deadlines</h2>
+
+          <div class="timeline" aria-label="IRS filing timeline">
+
+            <div class="timeline__item">
+              <div class="timeline__date">1 Jan – 31 Dec</div>
+              <div class="timeline__title">The tax year</div>
+              <div class="timeline__desc">Portugal's tax year runs on the calendar year. Your IRS return covers all income earned between 1 January and 31 December of the previous year.</div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__date">1 April</div>
+              <div class="timeline__title">Filing window opens</div>
+              <!-- CONTENT: 1-2 sentences about what happens on 1 April — the Portal das Finanças opens for filing, pre-filled returns (IRS Automático) become available for eligible filers, where to find your return. -->
+              <div class="timeline__desc"><!-- CONTENT: 1 April — portal opens, pre-filled returns available, how to access --></div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__date">1 April – 30 June</div>
+              <div class="timeline__title">Filing window</div>
+              <!-- CONTENT: 1-2 sentences about the filing window — 3 months to submit, applies to all filers regardless of income type. Mention that self-employed may have the same deadline despite more complex returns. -->
+              <div class="timeline__desc"><!-- CONTENT: filing window — who it applies to, any exceptions to the deadline --></div>
+            </div>
+
+            <div class="timeline__item timeline__item--deadline">
+              <div class="timeline__date">30 June</div>
+              <div class="timeline__title">Filing deadline</div>
+              <!-- CONTENT: 1-2 sentences stressing this is the hard cutoff. Late filing triggers automatic fines. Even if you owe nothing, you still face penalties for missing it. -->
+              <div class="timeline__desc"><!-- CONTENT: 30 June — hard deadline, penalties for lateness even if no tax is owed --></div>
+            </div>
+
+            <div class="timeline__item timeline__item--deadline">
+              <div class="timeline__date">31 August</div>
+              <div class="timeline__title">Payment deadline</div>
+              <!-- CONTENT: 1-2 sentences — if your return shows tax due, payment must reach AT by 31 August. Separate from the filing deadline. Options for paying. -->
+              <div class="timeline__desc"><!-- CONTENT: 31 August — tax payment due, payment methods available, separate from filing deadline --></div>
+            </div>
+
+          </div>
+
+          <h3>What happens if you file late?</h3>
+          <!-- CONTENT: Late filing penalty explanation with real figures. Coima (fine) is a percentage of the tax due, minimum and maximum amounts. Interest charges on top. AT also has discretion to reduce fines in some circumstances. Flag that even a zero-tax return filed late still attracts a minimum fine. Verify all figures for current year before publishing. -->
+          <p><!-- CONTENT: late filing penalties — coima percentage, minimum fine, interest charges, zero-tax return still attracts fine. All figures to be verified. --></p>
+
+          <h3>Instalment plan option</h3>
+          <!-- CONTENT: Explain pagamento em prestações — the instalment plan for those who can't pay the full tax bill by 31 August. How to apply (through Portal das Finanças), eligibility conditions, number of instalments available, any interest charged on instalments. Deadlines for applying. -->
+          <p><!-- CONTENT: instalment plan (pagamento em prestações) — eligibility, how to apply, number of instalments, interest --></p>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 5 — TAX RATES & BRACKETS
+               ─────────────────────────────────────────────── -->
+          <h2 id="rates">How much will you pay?</h2>
+
+          <!-- CONTENT: 1-2 sentence intro — Portugal uses progressive rates, so you don't pay the top rate on all your income. Effective rate will be lower than the marginal rate. Point to the rates table below. -->
+          <p><!-- CONTENT: rates intro — progressive system, effective vs marginal, brief orientation --></p>
+
+          <h3>Progressive rates for residents</h3>
+
+          <!-- CONTENT NOTE: All brackets and rates in this table must be verified against the current
+               year's IRS tables (Tabela de Taxas de IRS) published by AT before this guide is published.
+               Portugal revised the brackets in 2024. The structure below has the right number of rows
+               for the 2024 schedule — verify each figure. -->
+
+          <div class="rates-table-wrap">
+            <table class="rates-table">
+              <thead>
+                <tr>
+                  <th>Taxable income (annual)</th>
+                  <th>Rate</th>
+                  <th>On this portion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- CONTENT: all brackets and rates below — verify every figure for the current tax year -->
+                <tr>
+                  <td><!-- CONTENT: bracket, e.g. "Up to €7,703" --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate, e.g. "13.25%" --></td>
+                  <td><!-- CONTENT: max tax on this slice, e.g. "€1,021" --></td>
+                </tr>
+                <tr>
+                  <td><!-- CONTENT: bracket --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate --></td>
+                  <td><!-- CONTENT: max tax on this slice --></td>
+                </tr>
+                <tr>
+                  <td><!-- CONTENT: bracket --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate --></td>
+                  <td><!-- CONTENT: max tax on this slice --></td>
+                </tr>
+                <tr>
+                  <td><!-- CONTENT: bracket --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate --></td>
+                  <td><!-- CONTENT: max tax on this slice --></td>
+                </tr>
+                <tr>
+                  <td><!-- CONTENT: bracket --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate --></td>
+                  <td><!-- CONTENT: max tax on this slice --></td>
+                </tr>
+                <tr>
+                  <td><!-- CONTENT: bracket --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate --></td>
+                  <td><!-- CONTENT: max tax on this slice --></td>
+                </tr>
+                <tr>
+                  <td><!-- CONTENT: bracket --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate --></td>
+                  <td><!-- CONTENT: max tax on this slice --></td>
+                </tr>
+                <tr>
+                  <td><!-- CONTENT: bracket --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: rate --></td>
+                  <td><!-- CONTENT: max tax on this slice --></td>
+                </tr>
+                <tr class="rates-table__highlight">
+                  <td><!-- CONTENT: top bracket, e.g. "Over €81,199" --></td>
+                  <td class="rates-table__rate"><!-- CONTENT: top rate, e.g. "48%" --></td>
+                  <td><!-- CONTENT: on the excess only --></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- CONTENT: source note — "Rates above are for the [year] tax year. Source: AT / Autoridade Tributária. Verify at portaldasfinancas.gov.pt before filing." -->
+          <p class="rates-table__note"><!-- CONTENT: year and source note for the rates table --></p>
+
+          <h3>Solidarity surcharge</h3>
+          <!-- CONTENT: Explain the solidarity surcharge (taxa adicional de solidariedade) — an extra levy on high earners. Two thresholds apply. Give the rates and thresholds (approximately 2.5% above ~€80k, 5% above ~€250k but verify exact figures). Explain that this is on top of the income tax rate, not instead of it. -->
+          <p><!-- CONTENT: solidarity surcharge — what it is, two thresholds, rates, verify exact figures for current year --></p>
+
+          <h3>Non-residents: flat 25% rate</h3>
+          <!-- CONTENT: Explain the flat 25% rate that applies to non-residents on Portuguese-source income. Note any exceptions (e.g. some investment income may be taxed differently). Contrast with resident treatment. Note that EU residents may elect for resident treatment if it's more favourable — verify current rules. -->
+          <p><!-- CONTENT: non-resident 25% flat rate — what income it covers, exceptions, EU resident election option --></p>
+
+          <h3>Joint filing vs individual filing</h3>
+          <!-- CONTENT: 1-2 sentences intro — married couples and unregistered partners (união de facto) can choose to file jointly (tributação conjunta) or separately. The better option depends on the income gap between partners. -->
+          <p><!-- CONTENT: joint vs individual filing intro — who can choose, why it matters --></p>
+
+          <div class="callout callout--example">
+            <strong>Worked example — joint vs individual</strong>
+            <!-- CONTENT: Two-person household. Person A earns €35,000. Person B earns €18,000.
+                 Walk through the rough tax calculation for (a) filing separately and (b) filing jointly
+                 (household income €53,000, divided by 2 = €26,500 each for rate purposes).
+                 Show which option saves money in this case. Mark all figures with a note to verify
+                 against current year brackets. This should be readable and not require accounting knowledge. -->
+            <p><!-- CONTENT: worked example comparing joint vs separate — two income levels, rough figures, which is better and why --></p>
+            <p class="rates-table__note"><!-- CONTENT: note — these are illustrative figures, consult a contabilista for your specific situation --></p>
+          </div>
+
+          <h3>Effective rate vs marginal rate</h3>
+          <!-- CONTENT: Plain-English explanation. Your "marginal rate" is the rate on your last euro of income. Your "effective rate" is the actual percentage of your total income paid in tax — always lower than the marginal rate because lower brackets are taxed at lower rates. Give a brief illustrative example (e.g. "if you earn €30,000, you pay 13% on the first bracket, 18% on the next, 23% on the next — not 23% on all €30,000"). -->
+          <p><!-- CONTENT: effective vs marginal rate — plain-English explanation with a brief illustrative example --></p>
+
+          <div class="figure-callout">
+            <div class="figure-callout__num"><!-- CONTENT: illustrative effective rate figure, e.g. "~19%" --></div>
+            <div class="figure-callout__label">
+              <strong><!-- CONTENT: label, e.g. "effective rate for a €30,000 income" --></strong>
+              <!-- CONTENT: 1 sentence putting the figure in plain-English context — much lower than the marginal rate -->
+            </div>
+          </div>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 6 — INCOME CATEGORIES
+               ─────────────────────────────────────────────── -->
+          <h2 id="income">What income do you declare?</h2>
+
+          <!-- CONTENT: 1-2 sentence intro — Portugal divides income into 6 categories, each taxed slightly differently and entered on a different annex of Modelo 3. Explain that knowing which category your income falls into is the key to filing the right annexes. -->
+          <p><!-- CONTENT: income categories intro — 6 categories, different annexes of Modelo 3, why it matters --></p>
+
+          <h3>Category A — Employment income</h3>
+          <!-- CONTENT: 2-3 sentences. Salary, wages, bonuses, benefits in kind from an employer. Filed on Annex A. Employers report this data directly to AT, so it's usually pre-filled and accurate — but always check. Includes public sector and private sector employees. -->
+          <p><!-- CONTENT: Category A — employment income, salary, bonuses, benefits in kind, Annex A, pre-filled by employer --></p>
+
+          <h3>Category B — Self-employment &amp; recibos verdes</h3>
+          <!-- CONTENT: 2-3 sentences. Freelancers, sole traders, consultants working on recibos verdes (invoices). Filed on Annex B. Two regimes: simplified (regime simplificado, for those under the VAT threshold) vs organised accounts (contabilidade organizada, for higher earners). Self-employed must report this themselves — it's not pre-filled. -->
+          <p><!-- CONTENT: Category B — self-employment, recibos verdes, Annex B, simplified vs organised accounts regime --></p>
+
+          <h3>Category E — Investment income</h3>
+          <!-- CONTENT: 2-3 sentences. Dividends, bank interest, investment fund distributions. Usually taxed at a flat rate at source (withholding). Can be included in the general return via englobamento — see deductions section — which may be better for lower earners. Mention that crypto staking income may fall here — verify current AT guidance. -->
+          <p><!-- CONTENT: Category E — investment income, dividends, interest, flat rate withholding, englobamento option --></p>
+
+          <h3>Category F — Rental income</h3>
+          <!-- CONTENT: 2-3 sentences. Income from letting residential or commercial property. Usually taxed at a flat rate. Must register the lease contract with AT (caderneta predial required). Furnished vs unfurnished rates may differ. Must declare even if tenant pays directly into your bank account abroad. -->
+          <p><!-- CONTENT: Category F — rental income, flat rate, lease registration with AT, furnished vs unfurnished --></p>
+
+          <h3>Category G — Capital gains</h3>
+          <!-- CONTENT: 2-3 sentences. Profits from selling property, shares, or crypto. For property: residents get a 50% exemption on gains (verify this is still current). For shares: taxed at flat rate or by englobamento. Crypto: AT has published guidance treating crypto as taxable — mention it but note rules are evolving. -->
+          <p><!-- CONTENT: Category G — capital gains on property, shares, crypto; 50% property exemption for residents (verify); crypto rules evolving --></p>
+
+          <h3>Category H — Pensions</h3>
+          <!-- CONTENT: 2-3 sentences. Both Portuguese pensions and foreign pensions received by residents. Previously a major attraction of NHR status (10-year exemption). This has changed — new NHR/IFICI regime has different pension treatment. Mention that UK state pension, private pensions, and US Social Security may all have different treaty treatment. -->
+          <p><!-- CONTENT: Category H — Portuguese and foreign pensions, NHR pension changes, treaty implications for UK/US pensions --></p>
+
+          <div class="callout callout--catch">
+            <strong>Expat blind spot: foreign income must go on Annex J</strong>
+            <!-- CONTENT: Clear, prominent warning. Portugal taxes worldwide income for residents. Foreign bank interest, UK salary, US dividends, rental income from a property in another country — all must be declared on Annex J. This is the most common mistake made by English-speaking residents and the consequences are serious. Mention that double taxation treaties provide relief (you won't necessarily pay tax twice) but they don't remove the obligation to declare. -->
+            <p><!-- CONTENT: Annex J foreign income warning — worldwide income obligation, what qualifies as foreign income, common examples, consequences of not declaring, treaties provide relief but not exemption from filing --></p>
+          </div>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 7 — DEDUCTIONS
+               ─────────────────────────────────────────────── -->
+          <h2 id="deductions">Deductions — how to reduce your bill</h2>
+
+          <!-- CONTENT: 1-2 sentence intro — Portugal has a generous set of deductions that reduce either your taxable income or create a direct credit against your tax bill. Most are populated automatically from e-fatura data, but only if you gave your NIF. The system rewards people who give their NIF consistently. -->
+          <p><!-- CONTENT: deductions intro — how the system works, e-fatura automatic population, NIF as the key --></p>
+
+          <h3>Healthcare expenses (despesas de saúde)</h3>
+          <!-- CONTENT: 2-3 sentences. 15% of qualifying health expenses credited against tax due, up to a cap. Includes GP visits, prescriptions, specialist consultations, dental (partially), optician (partially). Must have given your NIF at the point of payment, or keep receipts and upload manually. Cap amount — verify for current year. -->
+          <p><!-- CONTENT: healthcare deduction — 15% rate, qualifying expenses (GP, prescriptions, dental, optician), cap amount (verify), NIF requirement --></p>
+
+          <h3>Education costs (despesas de educação)</h3>
+          <!-- CONTENT: 2-3 sentences. 30% of qualifying education expenses credited, up to a cap. Includes school fees, nursery, university, vocational training. Private schools may have a lower deductible cap than state schools. Verify current caps and any recent changes. -->
+          <p><!-- CONTENT: education deduction — 30% rate, qualifying expenses, cap amount (verify), private vs state school difference --></p>
+
+          <h3>Housing and rent expenses</h3>
+          <!-- CONTENT: 2-3 sentences. Tenants can deduct a portion of rent paid (via Annex H). The deduction applies to contracts registered with AT — landlord must register the lease. Homeowners: mortgage interest deduction was largely phased out but some historic contracts may still qualify. Verify current rules, as housing deduction rules have changed in recent years. -->
+          <p><!-- CONTENT: housing/rent deduction — tenant deduction rate and cap (verify), AT-registered lease requirement, mortgage interest current status --></p>
+
+          <h3>E-fatura VAT credits — the free money most expats miss</h3>
+          <div class="callout callout--save">
+            <strong>Free money: give your NIF every time you pay</strong>
+            <!-- CONTENT: Explanation of the e-fatura system. When you give your NIF at restaurants, shops, garages, hairdressers, etc., a portion of the VAT on that invoice is credited back to you against your IRS bill. Most English-speaking residents miss this because they don't know to give their NIF. Give specific sector examples with the credit rates (restaurants ~15%, repair shops ~100% of VAT, hairdressers ~100% of VAT — verify current rates and caps). Explain how to check your accumulated credits on Portal das Finanças under "E-Fatura". Give the rough annual value for a typical household. Verify all rates and caps for current year. -->
+            <p><!-- CONTENT: e-fatura — what it is, how to use it, sector rates (restaurants, repair, hairdressers), how to check credits on portal, rough annual value --></p>
+          </div>
+
+          <h3>Dependants</h3>
+          <!-- CONTENT: 2-3 sentences. Per-child tax deduction for dependent children (under 25 in education, or any age if disabled). Also covers elderly dependants in some cases. Per-child amount — verify for current year. Additional deductions if child has a disability. -->
+          <p><!-- CONTENT: dependants deduction — per-child amount (verify), age and education conditions, elderly dependants, disability uplift --></p>
+
+          <h3>Englobamento — when opting in saves you money</h3>
+          <!-- CONTENT: 2-3 sentences. Englobamento is the option to add investment income (Category E — dividends, interest) or rental income (Category F) to your total taxable income and have it taxed at progressive rates instead of the default flat rate. The default flat rate is ~28%. If your total income puts you in a bracket below 28%, englobamento will result in lower tax on that income. If your income is higher, the flat rate is probably better. Give a practical example. Mention that you elect for englobamento in the IRS return itself. -->
+          <p><!-- CONTENT: englobamento — what it is, when it's beneficial (income below ~28% bracket), how to elect it in the return --></p>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 8 — SPECIAL REGIMES
+               ─────────────────────────────────────────────── -->
+          <h2 id="regimes">Special tax regimes</h2>
+
+          <div class="callout callout--catch">
+            <strong>NHR is closed to new applicants as of 1 January 2024</strong>
+            <!-- CONTENT: Direct statement that the Non-Habitual Resident (NHR) regime closed on 31 December 2023. Anyone who did not have NHR status before that date cannot apply. IFICI (sometimes called NHR 2.0) is the replacement regime. Existing NHR holders keep their status for the remainder of their 10-year period. -->
+            <p><!-- CONTENT: NHR closure — clear statement of closure date, existing holders keep status, IFICI is the replacement --></p>
+          </div>
+
+          <h3>NHR: what existing holders need to know</h3>
+          <!-- CONTENT: 2-3 sentences. Covers those who already have NHR status. Benefits they retain: flat 20% rate on qualifying Portuguese employment/self-employment income, favourable treatment of some foreign income. Key change: foreign pension income no longer exempt for new periods (rules changed) — existing holders should check their specific situation. 10-year period runs from the year of registration. -->
+          <p><!-- CONTENT: existing NHR — what benefits remain, key changes especially to pension income, 10-year period, check individual situation --></p>
+
+          <h3>IFICI (NHR 2.0) — who qualifies and who doesn't</h3>
+          <!-- CONTENT: 2-3 sentences. IFICI = Incentivo Fiscal à Investigação Científica e Inovação. The replacement for NHR from 2024. Qualifying categories include: researchers, IT professionals, highly qualified workers in certain sectors, startup workers, and others. Unlike NHR, it is sector-specific rather than open to all expats. Key benefit: 20% flat rate on qualifying income. Verify current qualifying professions list — it has been expanded from the original announcement. -->
+          <p><!-- CONTENT: IFICI — what it is, qualifying professions (researchers, IT, highly qualified), 20% flat rate, how it differs from NHR --></p>
+
+          <div class="callout callout--warning">
+            <strong>Check the qualifying list before assuming you don't qualify for IFICI</strong>
+            <!-- CONTENT: Note that the IFICI qualifying professions list is broader than many people assume. Workers in technology, data science, engineering, audit, and related fields may qualify. Also note the income threshold requirement. Point to the AT or government source for the current qualifying list. -->
+            <p><!-- CONTENT: IFICI eligibility note — broader than assumed, income threshold, where to find the qualifying list --></p>
+          </div>
+
+          <h3>IRS Jovem — for workers aged 18–35</h3>
+          <!-- CONTENT: 2-3 sentences. IRS Jovem gives younger workers a partial income tax exemption in the early years of their career. Available to workers aged 18–35 who are not first-time tax residents. The exemption applies for a limited number of years and the percentage decreases over time. Verify the current age range, years of eligibility, and percentage exemptions — these have been revised. -->
+          <p><!-- CONTENT: IRS Jovem — who qualifies (age, career stage), exemption percentage, how many years, declining benefit, verify current figures --></p>
+
+          <h3>Double taxation treaties — UK and US</h3>
+          <!-- CONTENT: 2-3 sentences. Plain-English explanation: a double taxation treaty (DTT) means you won't pay full tax in both countries, but it does NOT exempt you from filing in Portugal. Explain the difference between the credit method (pay in one country, get a credit in the other) vs the exemption method (certain income taxed only in one country). Flag specific UK and US considerations: UK state pension, UK property rental income, US Social Security, US 401k distributions — each may have specific treaty treatment. Recommend getting specialist advice for cross-border situations. -->
+          <p><!-- CONTENT: double taxation treaties — how they work (credit vs exemption), UK and US specific notes, still must file, specialist advice recommended --></p>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 9 — HOW TO FILE STEP BY STEP
+               ─────────────────────────────────────────────── -->
+          <h2 id="how-to-file">How to file — step by step</h2>
+
+          <!-- CONTENT: 1 sentence framing this as a practical walkthrough for the filing process on Portal das Finanças. Mention it's in Portuguese but manageable with the right preparation. -->
+          <p><!-- CONTENT: brief intro — practical walkthrough, portal is in Portuguese but manageable --></p>
+
+          <ol class="step-list" aria-label="How to file your Portuguese IRS return">
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">1</div>
+              <div class="step-list__content">
+                <strong>Get your NIF — if you don't have one yet</strong>
+                <!-- CONTENT: 1-2 sentences. The NIF (Número de Identificação Fiscal) is your Portuguese tax number — mandatory for all residents. Without it you cannot file. Explain where to get one (Finanças office or, for EU citizens, online) and add a link placeholder for a separate NIF guide. -->
+                <p><!-- CONTENT: NIF step — what it is, how to get one (Finanças office, online for EU), link placeholder: [see our guide to getting a NIF →] --></p>
+              </div>
+            </li>
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">2</div>
+              <div class="step-list__content">
+                <strong>Log in to Portal das Finanças</strong>
+                <!-- CONTENT: 1-2 sentences. URL: portaldasfinancas.gov.pt. Two login methods: (1) NIF + password, or (2) Chave Móvel Digital (Portugal's digital ID system). If you don't have a portal password, you can request one by post or at a Finanças office. -->
+                <p><!-- CONTENT: portal login — URL, two login methods (NIF+password or Chave Móvel Digital), how to get a password if you don't have one --></p>
+                <div class="callout">
+                  <strong>Tip: the portal is in Portuguese</strong>
+                  <!-- CONTENT: Practical advice on navigating a Portuguese-language portal. Recommend using Chrome or Edge with automatic translation enabled. Give the key Portuguese terms to look for: "IRS", "Entregar Declaração" (submit return), "IRS Automático", "Modelo 3". Mention that Google Translate works well on most pages. -->
+                  <p><!-- CONTENT: portal language tip — use browser translation, key Portuguese menu terms (Entregar Declaração, IRS Automático, Modelo 3) --></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">3</div>
+              <div class="step-list__content">
+                <strong>IRS Automático or Modelo 3 — which applies to you?</strong>
+                <!-- CONTENT: 1-2 sentences. IRS Automático is a simplified pre-filled return for employed taxpayers with straightforward situations — single employer, no side income, no foreign income. You review and confirm it rather than completing a form. Modelo 3 is the full return, required for self-employed, those with foreign income, investment income, rental income, NHR, or any complex situation. The portal tells you which applies when you log in. -->
+                <p><!-- CONTENT: IRS Automático vs Modelo 3 — who gets each option, how to know which applies to you, portal guides you --></p>
+              </div>
+            </li>
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">4</div>
+              <div class="step-list__content">
+                <strong>Gather your documents before you start</strong>
+                <!-- CONTENT: 1-2 sentences intro, then a list of what to have ready. The list should include: declaração de rendimentos from employer (annual income statement), bank statements, rental income records, lease contracts, receipts for deductions (health, education), details of any foreign income, NHR approval letter if applicable. -->
+                <p><!-- CONTENT: document gathering — intro sentence, then what to prepare (employer statement, bank records, rental contracts, deduction receipts, foreign income details) --></p>
+                <ul>
+                  <!-- CONTENT: document checklist — one item per line, adjust to match actual content added above -->
+                  <li><!-- CONTENT: item 1, e.g. "Annual income statement (declaração de rendimentos) from your employer" --></li>
+                  <li><!-- CONTENT: item 2, e.g. "Bank statements for any interest or investment income" --></li>
+                  <li><!-- CONTENT: item 3, e.g. "Receipts for health and education expenses not captured by e-fatura" --></li>
+                  <li><!-- CONTENT: item 4, e.g. "Details of any income received from outside Portugal" --></li>
+                  <li><!-- CONTENT: item 5, e.g. "Rental income records and registered lease contracts" --></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">5</div>
+              <div class="step-list__content">
+                <strong>Choose your annexes</strong>
+                <!-- CONTENT: 1-2 sentences. Modelo 3 is the main form. Each income type has its own annex: A (employment), B (self-employment), E (investment), F (rental), G (capital gains), H (pensions), J (foreign income). The portal guides you through selecting the right ones based on what income types you declare. Only complete the annexes that apply to you. -->
+                <p><!-- CONTENT: annexes — how to choose the right ones, portal guides you, only complete those that apply --></p>
+              </div>
+            </li>
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">6</div>
+              <div class="step-list__content">
+                <strong>Review, validate and submit</strong>
+                <!-- CONTENT: 1-2 sentences. Before submitting, the portal runs automatic validation checks and flags errors. Once submitted, you receive a comprovativo (confirmation receipt) — save this. The portal also calculates your tax due or refund based on what you've entered. -->
+                <p><!-- CONTENT: submission — portal validation, comprovativo confirmation receipt, tax calculation shown, save the receipt --></p>
+              </div>
+            </li>
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">7</div>
+              <div class="step-list__content">
+                <strong>Pay by 31 August — or apply for an instalment plan</strong>
+                <!-- CONTENT: 1-2 sentences. If you owe tax, payment must reach AT by 31 August. Payment options include: Multibanco reference (generated on the portal), bank transfer, or in person at a CTT post office. If you can't pay in full, apply for an instalment plan (pagamento em prestações) via the portal. -->
+                <p><!-- CONTENT: payment — deadline, Multibanco reference, bank transfer, CTT option, instalment plan application --></p>
+              </div>
+            </li>
+
+            <li class="step-list__item">
+              <div class="step-list__num" aria-hidden="true">8</div>
+              <div class="step-list__content">
+                <strong>Refunds — what to expect and when</strong>
+                <!-- CONTENT: 1-2 sentences. If your return shows a refund due (reembolso), it's paid into the bank account registered with AT. If AT doesn't have your IBAN on file, you need to add it on the portal before the refund can be processed. Typical timeline. How to check refund status on the portal. -->
+                <p><!-- CONTENT: refunds — IBAN must be registered with AT, typical timeline, how to check status on portal --></p>
+              </div>
+            </li>
+
+          </ol>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 10 — COMMON MISTAKES
+               ─────────────────────────────────────────────── -->
+          <h2 id="mistakes">Common mistakes to avoid</h2>
+
+          <div class="callout callout--catch">
+            <strong>Mistake 1: Not declaring foreign income in Annex J</strong>
+            <!-- CONTENT: 1-2 sentences. Explain the consequence — AT receives data from foreign tax authorities under automatic exchange of information agreements (CRS/FATCA). If they find undeclared foreign income, the penalties are severe. Mention this is not just an oversight issue — AT is increasingly catching non-disclosures. -->
+            <p><!-- CONTENT: foreign income non-declaration — AT gets data via CRS/FATCA, penalties, not worth the risk --></p>
+          </div>
+
+          <div class="callout callout--catch">
+            <strong>Mistake 2: Accepting IRS Automático without reviewing it</strong>
+            <!-- CONTENT: 1-2 sentences. The pre-filled return can be incomplete or wrong — especially if you changed jobs, had side income, or have deductions that weren't captured automatically. Always review every line before confirming. A pre-filled return that you confirm is still your legal declaration. -->
+            <p><!-- CONTENT: IRS Automático blind acceptance — it can be wrong, always review, you're legally responsible for what you confirm --></p>
+          </div>
+
+          <div class="callout callout--catch">
+            <strong>Mistake 3: Missing the 30 June filing deadline</strong>
+            <!-- CONTENT: 1-2 sentences. Even if you owe no tax at all, a late return attracts fines. The fine is a minimum amount even for zero-tax returns. Give the approximate fine range (verify current figures). The deadline applies even if you're outside Portugal when it falls. -->
+            <p><!-- CONTENT: deadline mistake — fine even on zero-tax returns, minimum fine amount (verify), applies even if abroad --></p>
+          </div>
+
+          <div class="callout callout--catch">
+            <strong>Mistake 4: Having the wrong morada fiscal (tax address) on file</strong>
+            <!-- CONTENT: 1-2 sentences. Your morada fiscal is the address AT sends official correspondence to. If it's out of date — a previous landlord's address, a UK address from before you moved — you'll miss important notices, fines, and demands. Many expats don't realise they can update this easily on Portal das Finanças. -->
+            <p><!-- CONTENT: tax address mistake — consequences of wrong address (missed correspondence, fines), how to update on portal --></p>
+          </div>
+
+          <div class="callout callout--catch">
+            <strong>Mistake 5: Never giving your NIF — and missing all e-fatura credits</strong>
+            <!-- CONTENT: 1-2 sentences. Every time you pay for a meal, a service, a repair without giving your NIF, you lose the e-fatura VAT credit on that invoice. Over a year this adds up. Many English speakers are embarrassed to ask or don't know to do it — mention it's completely normal in Portugal and takes two seconds. Link back to the e-fatura section. -->
+            <p><!-- CONTENT: e-fatura mistake — lost credits per year for not giving NIF, normal to ask, link to deductions section --></p>
+          </div>
+
+          <div class="callout callout--catch">
+            <strong>Mistake 6: Assuming NHR means you don't need to file</strong>
+            <!-- CONTENT: 1-2 sentences. NHR is a special rate regime — it affects how your income is taxed, not whether you file. All NHR holders are Portuguese tax residents and must file an IRS return every year. The return is how you claim the NHR treatment on qualifying income. -->
+            <p><!-- CONTENT: NHR filing obligation — NHR is a rate regime, not an exemption from filing, all NHR holders still file --></p>
+          </div>
+
+
+          <!-- ───────────────────────────────────────────────
+               SECTION 11 — DO YOU NEED A TAX ADVISER?
+               ─────────────────────────────────────────────── -->
+          <h2 id="adviser">Do you need a tax adviser?</h2>
+
+          <h3>DIY vs hiring a contabilista</h3>
+          <!-- CONTENT: When DIY is the right call — single employer, no foreign income, no investment income, no NHR/IFICI complexity, comfortable navigating a Portuguese portal. When professional help is worth it — self-employed income, foreign income (especially complex sources), NHR or IFICI status, rental income, property sale, investment portfolio, or simply not wanting the stress. Be honest: this guide doesn't replace professional advice for complex situations. -->
+          <p><!-- CONTENT: DIY vs contabilista — clear conditions for each option, honest guidance, acknowledges guide limitations for complex cases --></p>
+
+          <h3>What to look for in a Portugal expat tax adviser</h3>
+          <!-- CONTENT: 2-3 sentences. Registered with OCC (Ordem dos Contabilistas Certificados) — required by law to practice. Experience with expat situations specifically: foreign income, UK/US pensions, NHR/IFICI. English-speaking. Ask for a quote before committing, and clarify whether they charge per hour or a fixed fee per return. -->
+          <p><!-- CONTENT: adviser checklist — OCC registration, expat experience, cross-border expertise, English-speaking, pricing clarity --></p>
+
+          <h3>Typical costs</h3>
+          <!-- CONTENT: Cost ranges for IRS filing by a contabilista, from simple to complex. Simple employed return: low end. Self-employed with recibos verdes: mid range. Complex with foreign income, NHR, investments: higher end. Note these are market estimates and vary widely — get multiple quotes. Also note that some accountants charge monthly for an ongoing service, not per return. All figures to be researched and verified before publishing. -->
+          <p><!-- CONTENT: adviser cost ranges — simple return, self-employed, complex/NHR; note to research and verify market rates before publishing --></p>
+
+          <div class="disclosure">
+            <!-- CONTENT: Editorial independence notice. The Portugal Wallet does not accept payment for recommendations. If a tax adviser or service is mentioned or linked, it is because we believe it genuinely helps our readers — not because we have been paid. Affiliate links, if any, are clearly disclosed on the page. -->
+            <p><!-- CONTENT: editorial independence statement for this guide --></p>
+            <p>Some links on this page may earn The Portugal Wallet a small commission — at no cost to you. We only link to tools and services we would recommend regardless. <a href="/about.html#independence">Read our independence policy.</a></p>
+          </div>
+
+        </article>
+
+
+        <!-- ═══════════════════════════════════════════════════
+             SIDEBAR
+             ═══════════════════════════════════════════════════ -->
+        <aside class="sidebar" aria-label="Guide navigation and tools">
+
+          <div class="sidebar-box">
+            <div class="sidebar-box__title">In this guide</div>
+            <nav class="toc" aria-label="Contents">
+              <a href="#residency"><span class="toc__num">1</span>Do you need to file?</a>
+              <a href="#dates"><span class="toc__num">2</span>Key dates &amp; deadlines</a>
+              <a href="#rates"><span class="toc__num">3</span>Tax rates &amp; brackets</a>
+              <a href="#income"><span class="toc__num">4</span>What income to declare</a>
+              <a href="#deductions"><span class="toc__num">5</span>Deductions</a>
+              <a href="#regimes"><span class="toc__num">6</span>NHR, IFICI &amp; special regimes</a>
+              <a href="#how-to-file"><span class="toc__num">7</span>How to file</a>
+              <a href="#mistakes"><span class="toc__num">8</span>Common mistakes</a>
+              <a href="#adviser"><span class="toc__num">9</span>Do you need an adviser?</a>
+            </nav>
+          </div>
+
+          <div class="sidebar-box">
+            <div class="sidebar-box__title">Useful tools</div>
+            <div class="sidebar-tool">
+              <a href="https://www.portaldasfinancas.gov.pt" target="_blank" rel="noopener noreferrer">Portal das Finanças</a>
+              <p>File your return, check deductions, make payments, check refund status</p>
+            </div>
+            <div class="sidebar-tool">
+              <a href="https://www.at.gov.pt" target="_blank" rel="noopener noreferrer">AT — Autoridade Tributária</a>
+              <p>Official guidance, taxpayer services, and contacts</p>
+            </div>
+            <div class="sidebar-tool">
+              <a href="https://www.occ.pt" target="_blank" rel="noopener noreferrer">Ordem dos Contabilistas</a>
+              <p>Find a registered accountant (contabilista certificado)</p>
+            </div>
+          </div>
+
+          <div class="sidebar-box">
+            <div class="sidebar-box__title">Get the newsletter</div>
+            <!-- KIT EMBED: replace this form with your Kit inline form embed code -->
+            <div class="newsletter-form">
+              <div class="newsletter-form__row">
+                <input type="email" placeholder="your@email.com" aria-label="Email address">
+                <button type="submit">Join free</button>
+              </div>
+              <div class="form-consent">
+                <label>
+                  <input type="checkbox" id="consent-sidebar" required>
+                  I agree to receive the free newsletter. <a href="/privacy.html">Privacy policy</a>.
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-box">
+            <div class="sidebar-box__title">Was this guide useful?</div>
+            <div class="useful-vote">
+              <button class="vote-btn" aria-label="Yes, this was useful">👍 Yes</button>
+              <button class="vote-btn" aria-label="No, this was not useful">👎 No</button>
+            </div>
+          </div>
+
+        </aside>
+
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+         NEWSLETTER BANNER
+         ═══════════════════════════════════════════════════ -->
+    <section class="newsletter-banner" aria-label="Newsletter signup">
+      <div class="newsletter-banner__inner">
+        <h2>Weekly Tips. Free.</h2>
+        <p>Tax deadlines, tariff changes, money tips — for English speakers living in Portugal, straight to your inbox.</p>
+        <!-- KIT EMBED: replace this form with your Kit inline form embed code -->
+        <div class="newsletter-form">
+          <div class="newsletter-form__row">
+            <input type="email" placeholder="your@email.com" aria-label="Email address">
+            <button type="submit">Join Free</button>
+          </div>
+          <div class="form-consent">
+            <label>
+              <input type="checkbox" id="consent-bottom" required>
+              I agree to receive the free Portugal Wallet newsletter. I can unsubscribe at any time. <a href="/privacy.html">Privacy policy</a>.
+            </label>
+          </div>
+        </div>
+        <p class="trust-line">No spam. No ads. Unsubscribe any time.</p>
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════
+         RELATED GUIDES
+         ═══════════════════════════════════════════════════ -->
+    <section class="related-guides" aria-label="Related guides">
+      <div class="related-guides__inner">
+        <h2>More guides</h2>
+        <div class="guides-grid">
+
+          <div class="guide-card guide-card--soon">
+            <div class="guide-card__num">10</div>
+            <div class="guide-card__badge"><span class="badge badge--soon">Coming Soon</span></div>
+            <div class="guide-card__title">Finanças Portal</div>
+            <div class="guide-card__desc">How to navigate Portugal's tax portal without losing your mind.</div>
+          </div>
+
+          <a class="guide-card" href="supermarket-savings.html">
+            <div class="guide-card__num">02</div>
+            <div class="guide-card__badge"><span class="badge badge--live">Live</span></div>
+            <div class="guide-card__title">Supermarket Savings</div>
+            <div class="guide-card__desc">Continente vs Pingo Doce vs Lidl — where to genuinely save and how the loyalty cards work.</div>
+          </a>
+
+          <div class="guide-card guide-card--soon">
+            <div class="guide-card__num">08</div>
+            <div class="guide-card__badge"><span class="badge badge--soon">Coming Soon</span></div>
+            <div class="guide-card__title">Segurança Social</div>
+            <div class="guide-card__desc">What you pay, what you're entitled to, how the system works.</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="../assets/images/portugal-wallet-dark.svg" alt="The Portugal Wallet">
+        <p><em>The Portugal Wallet — independent money guides for English speakers in Portugal</em></p>
+      </div>
+      <ul class="footer__links" role="list">
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../newsletter.html">Newsletter</a></li>
+        <li><a href="../privacy.html">Privacy</a></li>
+        <li><a href="mailto:hello@theportugalwallet.com">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer__copy">© 2025 The Portugal Wallet. Independent. Free. Always.</div>
+    <div class="footer__legal">The Portugal Wallet provides free information and guides. We are not financial advisers. Nothing on this site constitutes financial advice. Always seek independent professional advice before making financial decisions.</div>
+  </footer>
+
+
+  <div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite" style="display:none;">
+    <p>We use cookies to understand how our guides are used and improve the site. No advertising cookies. No third-party tracking. <a href="../privacy.html">Privacy policy</a>.</p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept">Accept</button>
+      <button id="cookie-decline">Decline</button>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var consent = localStorage.getItem('tpw_cookie_consent');
+      if (!consent) { document.getElementById('cookie-banner').style.display = 'flex'; }
+      document.getElementById('cookie-accept').addEventListener('click', function() {
+        localStorage.setItem('tpw_cookie_consent', 'accepted');
+        document.getElementById('cookie-banner').style.display = 'none';
+      });
+      document.getElementById('cookie-decline').addEventListener('click', function() {
+        localStorage.setItem('tpw_cookie_consent', 'declined');
+        document.getElementById('cookie-banner').style.display = 'none';
+      });
+    })();
+    (function() {
+      var hamburger = document.querySelector('.nav__hamburger');
+      var overlay   = document.getElementById('mobile-menu');
+      var close     = document.querySelector('.nav__mobile-close');
+      function openMenu()  { overlay.classList.add('open');    hamburger.setAttribute('aria-expanded', 'true');  close.focus(); }
+      function closeMenu() { overlay.classList.remove('open'); hamburger.setAttribute('aria-expanded', 'false'); hamburger.focus(); }
+      hamburger.addEventListener('click', openMenu);
+      close.addEventListener('click', closeMenu);
+      overlay.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeMenu(); });
+    })();
+  </script>
+
+</body>
+</html>

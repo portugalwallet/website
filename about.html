@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Portugal Wallet — independent, free financial guides for English-speaking residents in Portugal. About who we are and how we work.">
+  <title>About — The Portugal Wallet</title>
+  <link rel="icon" href="/assets/images/portugal-wallet-favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/images/portugal-wallet-apple-touch.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="The Portugal Wallet — home">
+        <img src="assets/images/portugal-wallet-dark.svg" alt="The Portugal Wallet">
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html#guides">Guides</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="nav__mobile-overlay" role="dialog" aria-label="Navigation menu" aria-modal="true">
+    <button class="nav__mobile-close" aria-label="Close menu">✕</button>
+    <a href="index.html#guides">Guides</a>
+    <a href="newsletter.html">Newsletter</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <main>
+
+    <header class="guide-hero">
+      <div class="guide-hero__inner">
+        <span class="section-label" style="color: var(--color-accent);">About Us</span>
+        <h1 class="display">INDEPENDENT.<br>FREE.<br><span class="accent">ALWAYS.</span></h1>
+        <p class="guide-hero__standfirst">The Portugal Wallet exists because most financial information in Portugal is either in Portuguese, buried in legal language, or written for wealthy expats with advisers.</p>
+      </div>
+    </header>
+
+    <section class="page-body">
+      <div class="page-body__inner">
+
+        <h2>Who we're for</h2>
+        <p>We're for everyone else — the settled residents, the mixed families, the people who've been here long enough to have bills, bank accounts and tax returns, but still find the system hard to navigate in English. We cover the things that affect everyday life: energy tariffs, car insurance, supermarket loyalty cards, IRS filing, mortgages, Segurança Social and more.</p>
+
+        <h2>How we work</h2>
+        <p>Every guide is free, editorially independent, and written the way a knowledgeable friend would explain it — clearly, honestly, and without trying to sell you anything.</p>
+        <p>We research each topic from scratch, using official Portuguese sources, talking to people who have been through the process, and checking the guides regularly to make sure they stay accurate as systems and prices change. We write for someone who is intelligent and capable but doesn't speak Portuguese fluently and isn't familiar with how the Portuguese financial and administrative system works.</p>
+
+        <h2 id="independence">Our independence policy</h2>
+        <p>The Portugal Wallet is editorially independent. Companies cannot pay to appear in our guides — we write about what's genuinely best for our readers, not what pays us best.</p>
+        <p>Some of our guides contain affiliate links — these are links to third-party tools and services. If you click one and sign up, we may earn a small commission. This never affects our editorial judgement: we only link to tools we would recommend regardless, and the deal you get is always identical to or better than going direct.</p>
+        <p>Every page that contains affiliate links says so clearly.</p>
+
+        <h2>Who writes The Portugal Wallet</h2>
+        <p>The Portugal Wallet is written and maintained by a small, independent team of English speakers who live and work in Portugal. We experience the same financial system you do — the same confusing bills, the same bureaucratic portals, the same language barrier. That's why we write these guides.</p>
+
+      </div>
+    </section>
+
+    <section class="newsletter-banner" aria-label="Newsletter signup">
+      <div class="newsletter-banner__inner">
+        <h2>Weekly Tips. Free.</h2>
+        <p>The best money guides for English speakers living in Portugal — straight to your inbox.</p>
+        <!-- KIT EMBED: replace this form with your Kit inline form embed code -->
+        <div class="newsletter-form">
+          <div class="newsletter-form__row">
+            <input type="email" placeholder="your@email.com" aria-label="Email address">
+            <button type="submit">Join Free</button>
+          </div>
+          <div class="form-consent">
+            <label>
+              <input type="checkbox" id="consent-banner" required>
+              I agree to receive the free Portugal Wallet newsletter. I can unsubscribe at any time. <a href="/privacy.html">Privacy policy</a>.
+            </label>
+          </div>
+        </div>
+        <p class="trust-line">No spam. No ads. Unsubscribe any time.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="assets/images/portugal-wallet-dark.svg" alt="The Portugal Wallet">
+        <p><em>The Portugal Wallet — independent money guides for English speakers in Portugal</em></p>
+      </div>
+      <ul class="footer__links" role="list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="mailto:hello@theportugalwallet.com">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer__copy">© 2025 The Portugal Wallet. Independent. Free. Always.</div>
+    <div class="footer__legal">The Portugal Wallet provides free information and guides. We are not financial advisers. Nothing on this site constitutes financial advice. Always seek independent professional advice before making financial decisions.</div>
+  </footer>
+
+  <div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite" style="display:none;">
+    <p>We use cookies to understand how our guides are used and improve the site. No advertising cookies. No third-party tracking. <a href="/privacy.html">Privacy policy</a>.</p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept">Accept</button>
+      <button id="cookie-decline">Decline</button>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var consent = localStorage.getItem('tpw_cookie_consent');
+      if (!consent) { document.getElementById('cookie-banner').style.display = 'flex'; }
+      document.getElementById('cookie-accept').addEventListener('click', function() {
+        localStorage.setItem('tpw_cookie_consent', 'accepted');
+        document.getElementById('cookie-banner').style.display = 'none';
+      });
+      document.getElementById('cookie-decline').addEventListener('click', function() {
+        localStorage.setItem('tpw_cookie_consent', 'declined');
+        document.getElementById('cookie-banner').style.display = 'none';
+      });
+    })();
+    (function() {
+      var hamburger = document.querySelector('.nav__hamburger');
+      var overlay = document.getElementById('mobile-menu');
+      var close = document.querySelector('.nav__mobile-close');
+      function openMenu() { overlay.classList.add('open'); hamburger.setAttribute('aria-expanded', 'true'); close.focus(); }
+      function closeMenu() { overlay.classList.remove('open'); hamburger.setAttribute('aria-expanded', 'false'); hamburger.focus(); }
+      hamburger.addEventListener('click', openMenu);
+      close.addEventListener('click', closeMenu);
+      overlay.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeMenu(); });
+    })();
+  </script>
+
+</body>
+</html>
